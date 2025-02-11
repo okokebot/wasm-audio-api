@@ -1,0 +1,15 @@
+{
+  "name": "wasm_audio_api",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "wasm_audio_api_bg.wasm",
+    "wasm_audio_api.js",
+    "wasm_audio_api.d.ts"
+  ],
+  "main": "wasm_audio_api.js",
+  "types": "wasm_audio_api.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
